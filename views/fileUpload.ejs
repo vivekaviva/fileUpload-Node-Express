@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Upload</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <h2>File Upload</h2>
+    <form action="/uploaded" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="exampleFormControlFile1" class="form-label"
+          >file input</label
+        >
+        <input
+          type="file"
+          name="uploadMyPic"
+          class="form-control-file"
+          id="exampleFormControlFile1"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </body>
+</html>
